@@ -1,0 +1,80 @@
+body {
+background-color: whitesmoke;
+color: black;
+
+}
+
+.idUser {
+	margin-left: 28%;
+	margin-right: 28%;
+	margin-top: auto;
+	padding: 10pt;
+	font-size: 2cm;
+	text-align: center;
+}
+.main-header {
+
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+	font-weight: 100px;
+	text-align: justify;
+	
+}
+
+
+.button {
+	font-size: 1cm;
+	margin-left: 42%;
+	margin right: 42%;
+	margin-top: 10%;
+}
+
+#userPhone {
+
+	style=display: none;
+	background-color: dodgerblue;
+	font-size: 2cm;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 10px;
+	width: 50%;
+	text-align: center;
+	animation-name: userPhone;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+
+
+
+@keyframes userPhone {
+
+	0% {
+		background-color: dodgerblue;
+		left: 0%;
+		top: 0px;
+	}
+
+	25% {
+		background-color: blueviolet;
+		left: 50%px;
+		top: 0px;
+	}
+
+	50% {
+		background-color: blue;
+		left: 75%px;
+		top: 0px;
+	}
+
+	75% {
+		background-color: silver;
+		left: 50%px;
+		top: 0px;
+	}
+
+	100% {
+		background-color: dodgerblue;
+		left: auto;
+		top: 0px;
+	}
